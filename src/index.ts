@@ -1,1 +1,1 @@
-export { defineComponent } from "./utils";
+export { defineComponent, InferField } from "./utils";

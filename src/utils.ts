@@ -24,7 +24,7 @@ export function defineComponent<
   return config;
 }
 
-type InferField<T extends Field> = (
+export type InferField<T extends Field> = (
   T["type"] extends "text" ? string :
   T["type"] extends "textarea" ? string :
   T["type"] extends "number" ? number :
